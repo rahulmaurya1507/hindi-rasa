@@ -1,0 +1,57 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - kaise ho
+    - aur sab badhiya?
+    - kya haal chal h
+    - kaise mizaz h
+    - aur mizaz kaise h
+
+- intent: goodbye
+  examples: |
+    - alvida
+    - baad me milte h
+    - milte h
+    - fir kabhi milte h
+
+- intent: affirm
+  examples: |
+    - ji haa
+    - ji bilkul
+    - haa
+    - haa kripya
+    - jaroor
+
+- intent: deny
+  examples: |
+    - nahi
+    - bilkul nahi
+    - rahne dijie
+    - ji nahi
+    - ekdam nahi
+
+- intent: mood_great
+  examples: |
+    - bahut achcha
+    - khsuh hu
+    - badhiya hu
+    - bahut badhiya
+    - ekdam mast
+
+- intent: mood_unhappy
+  examples: |
+    - bahut bekar
+    - ekdam bekar
+    - bahut kharab
+    - ekdam kharab
+    - bilkul achcha nahi raha
+
+- intent: bot_challenge
+  examples: |
+    - kya aap bot h
+    - aap bot h?
+    - aap kaun h?
+    - kaun h aap?
+    - main pahchana nahi aapko

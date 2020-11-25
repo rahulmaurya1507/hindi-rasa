@@ -1,0 +1,34 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Mai achcha hu. Aap kaise h?"
+
+  utter_cheer_up:
+  - text: "Ummeed h yeh apki madad kar paye:-"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Kya apko koi madad mili?"
+
+  utter_happy:
+  - text: "Bahut Khoob, aise hi khush rahie."
+
+  utter_goodbye:
+  - text: "Alvida"
+
+  utter_iamabot:
+  - text: "Mai ek BOT hu jo ki RASA par banaya gaya hai."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
