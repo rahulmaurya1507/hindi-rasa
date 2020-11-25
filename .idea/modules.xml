@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RASA.iml" filepath="$PROJECT_DIR$/.idea/RASA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hindi-rasa.iml" filepath="$PROJECT_DIR$/.idea/hindi-rasa.iml" />
     </modules>
   </component>
 </project>
